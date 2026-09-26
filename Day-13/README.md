@@ -37,7 +37,7 @@ remove ec2, volume and test it again
 
 **below is the program**
 
-in boto3 documentation get the code for all ec2 instances8888888888888888888888888888888888888888888888
+in boto3 documentation get the code for all ec2 instances
 
 import boto3
 

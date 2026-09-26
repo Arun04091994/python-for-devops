@@ -19,7 +19,14 @@ note
 botocore - exceptions --> this module will handle try and except
 
 boto3 second video
+lambda_handler is the function lambda by default first triggers it. you can change by changing configuration. this lambda_handler function should call other functions.o`
+lambda functions will be mostly used to monitor cost optimization and security/compliance like to check if resources are built with unallowed sizes and storages.
+
 create lambda function and check configuration in it
+you can get environment variable option to declare variables
+by default lambda will create a default role
+function url can enable while during creation to allow url to accessible
+lambda can be deployed in VPC
 
 create ec2 and snapshot
 create lambda function, attach ec2 describe, volume describe, snapshot describe and snapshot delete policy permissions to lambda role

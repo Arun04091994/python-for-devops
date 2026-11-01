@@ -10,7 +10,7 @@ from flask import Flask
 app = Flask(__name__)
 
 # Define a route that handles GET requests
-@app.route('/createJira', methods=['POST'])
+@app.route('/createJira', methods=['POST']) #you should keep http://ec2_dns:/createJira:5000 in github webhook to communicate and send data to ec2 python program. also should method as post.
 def createJira():
 
     url = "https://veeramallaabhishek.atlassian.net/rest/api/3/issue"

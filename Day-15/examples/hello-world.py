@@ -1,3 +1,4 @@
+#by default flask application run on port 5000
 from flask import Flask
 
 app = Flask(__name__)

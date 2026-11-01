@@ -1,3 +1,4 @@
+#install flask 'pip3 install flask'
 # This code sample uses the 'requests' library:
 # http://docs.python-requests.org
 import requests

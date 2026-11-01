@@ -1,4 +1,5 @@
-#install flask 'pip3 install flask'
+#install flask 'pip3 install flask' in aws ec2
+#code the code from last class and put it inside function
 # This code sample uses the 'requests' library:
 # http://docs.python-requests.org
 import requests

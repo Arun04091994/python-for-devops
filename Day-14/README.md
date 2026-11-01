@@ -1,9 +1,11 @@
 # Github-JIRA intergration Project
 
 create jira account
-use scrum template and create project by giving project name and the key
-use below jira api docs to get code
+use scrum template and create project by giving 'project name' and the 'key'
+use below 'jira api docs' to get code
 https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-projects/
+search for 'projects' and then 'get projects', copy the code 
+
 
 create api token to authenticate to jira using python script
 **to get project details from the jira**
